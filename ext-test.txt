@@ -1,0 +1,2259 @@
+﻿
+[1m[46m RUN [49m[22m [36mv3.2.4 [39m[90mC:/Users/u1118378/engpage/english-learning-app[39m
+
+node.exe : [90mstderr[2m | src/__tests__/e2e/activity-extended.test.tsx[2m 
+> [22m[2mBossBattle ÔÇö full interaction[2m > [22m[2manswering questions 
+damages boss health
+At C:\Program Files\nodejs\npx.ps1:29 char:3
++   & $NODE_EXE $NPX_CLI_JS $args
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: ([90mstderr[2m...ges boss health 
+   :String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[22m[39mWarning: Received NaN for the `children` attribute. If this is 
+expected, cast the value to a string.
+    at span
+    at div
+    at div
+    at BossBattle (C:\Users\u1118378\engpage\english-learning-app\src\component
+s\activities\BossBattle.tsx:8:23)
+
+ [31mÔØ»[39m src/__tests__/e2e/activity-extended.test.tsx [2m([22m[2m34 tests[22m[2m | [22m[31m3 failed[39m[2m)[22m[33m 12427[2mms[22m[39m
+   [32mÔ£ô[39m SpeedRound ÔÇö full interaction[2m > [22mrenders start screen with COMENZAR button[32m 74[2mms[22m[39m
+   [32mÔ£ô[39m SpeedRound ÔÇö full interaction[2m > [22mclicking COMENZAR starts the game with timer and options[32m 102[2mms[22m[39m
+   [32mÔ£ô[39m SpeedRound ÔÇö full interaction[2m > [22manswering all questions reaches finished state[32m 217[2mms[22m[39m
+   [32mÔ£ô[39m SurvivalMode ÔÇö full interaction[2m > [22mrenders start screen with COMENZAR and lives display[32m 30[2mms[22m[39m
+   [32mÔ£ô[39m SurvivalMode ÔÇö full interaction[2m > [22mclicking COMENZAR starts game with question options[32m 64[2mms[22m[39m
+   [32mÔ£ô[39m SurvivalMode ÔÇö full interaction[2m > [22mwrong answers reduce lives[32m 148[2mms[22m[39m
+   [32mÔ£ô[39m BossBattle ÔÇö full interaction[2m > [22mrenders intro screen with boss emoji and COMENZAR button[32m 57[2mms[22m[39m
+   [32mÔ£ô[39m BossBattle ÔÇö full interaction[2m > [22mclicking COMENZAR BATALLA starts fight with health bars[32m 94[2mms[22m[39m
+   [32mÔ£ô[39m BossBattle ÔÇö full interaction[2m > [22manswering questions damages boss health[32m 172[2mms[22m[39m
+   [32mÔ£ô[39m DictationExercise ÔÇö full interaction[2m > [22mrenders audio controls and textarea[32m 143[2mms[22m[39m
+   [32mÔ£ô[39m DictationExercise ÔÇö full interaction[2m > [22mspeed toggle switches between Lento and Normal[32m 75[2mms[22m[39m
+   [33m[2mÔ£ô[22m[39m DictationExercise ÔÇö full interaction[2m > [22mtyping and checking shows feedback [33m 478[2mms[22m[39m
+   [32mÔ£ô[39m DictationExercise ÔÇö full interaction[2m > [22mtranslation toggle shows/hides translation[32m 46[2mms[22m[39m
+   [33m[2mÔ£ô[22m[39m DictationExercise ÔÇö full interaction[2m > [22mcompleting all sentences shows results [33m 1190[2mms[22m[39m
+   [32mÔ£ô[39m OpenFillBlanks ÔÇö full interaction[2m > [22mrenders sentence with blank inputs[32m 35[2mms[22m[39m
+   [32mÔ£ô[39m OpenFillBlanks ÔÇö full interaction[2m > [22mhint button shows hint text[32m 74[2mms[22m[39m
+   [32mÔ£ô[39m OpenFillBlanks ÔÇö full interaction[2m > [22mfilling and checking shows feedback[32m 141[2mms[22m[39m
+   [32mÔ£ô[39m ReverseTranslation ÔÇö full interaction[2m > [22mrenders Spanish sentence and textarea[32m 34[2mms[22m[39m
+   [32mÔ£ô[39m ReverseTranslation ÔÇö full interaction[2m > [22mhint toggle shows hint text[32m 58[2mms[22m[39m
+   [33m[2mÔ£ô[22m[39m ReverseTranslation ÔÇö full interaction[2m > [22mtyping answer and checking shows feedback [33m 405[2mms[22m[39m
+   [33m[2mÔ£ô[22m[39m ReverseTranslation ÔÇö full interaction[2m > [22mcompleting exercises shows results screen [33m 936[2mms[22m[39m
+   [32mÔ£ô[39m DialoguePractice ÔÇö full interaction[2m > [22mrenders dialogue header and chat area[32m 32[2mms[22m[39m
+   [32mÔ£ô[39m DialoguePractice ÔÇö full interaction[2m > [22mbot message appears and user can type response[32m 79[2mms[22m[39m
+   [32mÔ£ô[39m DialoguePractice ÔÇö full interaction[2m > [22mVolver calls onBack[32m 79[2mms[22m[39m
+   [32mÔ£ô[39m GuidedWriting ÔÇö full interaction[2m > [22mrenders prompt with textarea and submit button[32m 34[2mms[22m[39m
+   [32mÔ£ô[39m GuidedWriting ÔÇö full interaction[2m > [22mhints toggle shows writing hints[32m 61[2mms[22m[39m
+[31m   [31m├ù[31m GuidedWriting ÔÇö full interaction[2m > [22mtyping enough words enables submit[39m[33m 2305[2mms[22m[39m
+[31m     ÔåÆ [2mexpect([22m[31melement[31m[2m).not.toBeDisabled()[22m
+
+Received element is disabled:
+  [31m<button
+  class="btn-primary flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"
+  disabled=""
+/>[31m
+
+Ignored nodes: comments, script, style
+[36m<html>[31m
+  [36m<head />[31m
+  [36m<body>[31m
+    [36m<div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex flex-col min-h-[70vh] py-4"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex items-center justify-between mb-6"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"flex items-center gap-2 text-gray-400 hover:text-white transition-colors"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-arrow-left w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m12 19-7-7 7-7"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M19 12H5"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<span>[31m
+              [0mVolver[0m
+            [36m</span>[31m
+          [36m</button>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"text-center mb-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 text-emerald-400 mb-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-pen-tool w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m2.3 2.3 7.286 7.286"[31m
+              [36m/>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"11"[31m
+                [33mcy[31m=[32m"11"[31m
+                [33mr[31m=[32m"2"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-sm font-medium"[31m
+            [36m>[31m
+              [0mEscritura Guiada[0m
+            [36m</span>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-2xl font-bold text-white mb-2"[31m
+          [36m>[31m
+            [0mEscritura de Email[0m
+          [36m</h1>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"card bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border-emerald-500/20 mb-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-start gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-file-text w-6 h-6 text-emerald-400 flex-shrink-0"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M14 2v5a1 1 0 0 0 1 1h5"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M10 9H8"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M16 13H8"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M16 17H8"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<div>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-xs text-emerald-400 uppercase tracking-wide mb-2"[31m
+              [36m>[31m
+                [0mEscenario[0m
+              [36m</p>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-gray-200"[31m
+              [36m>[31m
+                [0mEscribe un email formal a tu jefe.[0m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex-1 space-y-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"card"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-lg text-white"[31m
+            [36m>[31m
+              [0mEscribe el saludo y la introducci├│n.[0m
+            [36m</p>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex flex-wrap gap-3 mt-4"[31m
+            [36m>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"flex items-center gap-1 px-3 py-1 rounded-full bg-dark-600 text-sm text-gray-400"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-clock w-4 h-4"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M12 6v6l4 2"[31m
+                  [36m/>[31m
+                  [36m<circle[31m
+                    [33mcx[31m=[32m"12"[31m
+                    [33mcy[31m=[32m"12"[31m
+                    [33mr[31m=[32m"10"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+                [0mM├¡n: [0m
+                [0m10[0m
+                [0m palabras[0m
+              [36m</span>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"flex items-center gap-1 px-3 py-1 rounded-full bg-dark-600 text-sm text-gray-400"[31m
+              [36m>[31m
+                [0mM├íx: [0m
+                [0m50[0m
+                [0m palabras[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-4 pt-4 border-t border-dark-500"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-sm text-gray-400 mb-2"[31m
+              [36m>[31m
+                [0mIncluye estos elementos:[0m
+              [36m</p>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+              [36m>[31m
+                [36m<span[31m
+                  [33mclass[31m=[32m"px-3 py-1 rounded-full bg-accent-primary/20 text-accent-primary text-sm"[31m
+                [36m>[31m
+                  [0mDear[0m
+                [36m</span>[31m
+                [36m<span[31m
+                  [33mclass[31m=[32m"px-3 py-1 rounded-full bg-accent-primary/20 text-accent-primary text-sm"[31m
+                [36m>[31m
+                  [0mwriting[0m
+                [36m</span>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"text-sm text-accent-primary hover:underline flex items-center gap-1"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-lightbulb w-4 h-4"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M9 18h6"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M10 22h4"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+              [0mVer pistas ([0m
+              [0m2[0m
+              [0m)[0m
+            [36m</button>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"space-y-2"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center justify-between"[31m
+            [36m>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"text-sm text-gray-400"[31m
+              [36m>[31m
+                [0mTu respuesta:[0m
+              [36m</label>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-sm text-red-400"[31m
+              [36m>[31m
+                [0m1[0m
+                [0m [0m
+                [0mpalabra[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<textarea[31m
+              [33mclass[31m=[32m"w-full p-4 rounded-xl bg-dark-700 border-2 border-dark-500 text-white placeholder-gray-500 resize-none focus:outline-none focus:border-accent-primary transition-colors"[31m
+              [33mplaceholder[31m=[32m"Escribe aqu├¡ tu respuesta..."[31m
+              [33mrows[31m=[32m"8"[31m
+            [36m>[31m
+              [0mD[0m
+            [36m</textarea>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-400"[31m
+            [36m>[31m
+              [0mNecesitas al menos [0m
+              [0m9[0m
+              [0m palabras m├ís[0m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"mt-8 flex justify-end gap-3"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"btn-secondary flex items-center gap-2"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-save w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M7 3v4a1 1 0 0 0 1 1h7"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [0mGuardar borrador[0m
+          [36m</button>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"btn-primary flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"[31m
+            [33mdisabled[31m=[32m""[31m
+          [36m>[31m
+            [0mEnviar[0m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-circle-check-big w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M21.801 10A10 10 0 1 1 17 3.335"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m9 11 3 3L22 4"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+          [36m</button>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</body>[31m
+[36m</html>[31m[39m
+[31m   [31m├ù[31m GuidedWriting ÔÇö full interaction[2m > [22msubmitting shows self-evaluation phase[39m[33m 2361[2mms[22m[39m
+[31m     ÔåÆ expected false to be truthy
+
+Ignored nodes: comments, script, style
+[36m<html>[31m
+  [36m<head />[31m
+  [36m<body>[31m
+    [36m<div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex flex-col min-h-[70vh] py-4"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex items-center justify-between mb-6"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"flex items-center gap-2 text-gray-400 hover:text-white transition-colors"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-arrow-left w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m12 19-7-7 7-7"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M19 12H5"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<span>[31m
+              [0mVolver[0m
+            [36m</span>[31m
+          [36m</button>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"text-center mb-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 text-emerald-400 mb-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-pen-tool w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m2.3 2.3 7.286 7.286"[31m
+              [36m/>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"11"[31m
+                [33mcy[31m=[32m"11"[31m
+                [33mr[31m=[32m"2"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-sm font-medium"[31m
+            [36m>[31m
+              [0mEscritura Guiada[0m
+            [36m</span>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-2xl font-bold text-white mb-2"[31m
+          [36m>[31m
+            [0mEscritura de Email[0m
+          [36m</h1>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"card bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border-emerald-500/20 mb-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-start gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-file-text w-6 h-6 text-emerald-400 flex-shrink-0"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M14 2v5a1 1 0 0 0 1 1h5"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M10 9H8"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M16 13H8"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M16 17H8"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<div>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-xs text-emerald-400 uppercase tracking-wide mb-2"[31m
+              [36m>[31m
+                [0mEscenario[0m
+              [36m</p>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-gray-200"[31m
+              [36m>[31m
+                [0mEscribe un email formal a tu jefe.[0m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex-1 space-y-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"card"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-lg text-white"[31m
+            [36m>[31m
+              [0mEscribe el saludo y la introducci├│n.[0m
+            [36m</p>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex flex-wrap gap-3 mt-4"[31m
+            [36m>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"flex items-center gap-1 px-3 py-1 rounded-full bg-dark-600 text-sm text-gray-400"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-clock w-4 h-4"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M12 6v6l4 2"[31m
+                  [36m/>[31m
+                  [36m<circle[31m
+                    [33mcx[31m=[32m"12"[31m
+                    [33mcy[31m=[32m"12"[31m
+                    [33mr[31m=[32m"10"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+                [0mM├¡n: [0m
+                [0m10[0m
+                [0m palabras[0m
+              [36m</span>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"flex items-center gap-1 px-3 py-1 rounded-full bg-dark-600 text-sm text-gray-400"[31m
+              [36m>[31m
+                [0mM├íx: [0m
+                [0m50[0m
+                [0m palabras[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-4 pt-4 border-t border-dark-500"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-sm text-gray-400 mb-2"[31m
+              [36m>[31m
+                [0mIncluye estos elementos:[0m
+              [36m</p>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+              [36m>[31m
+                [36m<span[31m
+                  [33mclass[31m=[32m"px-3 py-1 rounded-full bg-accent-primary/20 text-accent-primary text-sm"[31m
+                [36m>[31m
+                  [0mDear[0m
+                [36m</span>[31m
+                [36m<span[31m
+                  [33mclass[31m=[32m"px-3 py-1 rounded-full bg-accent-primary/20 text-accent-primary text-sm"[31m
+                [36m>[31m
+                  [0mwriting[0m
+                [36m</span>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"text-sm text-accent-primary hover:underline flex items-center gap-1"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-lightbulb w-4 h-4"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M9 18h6"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M10 22h4"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+              [0mVer pistas ([0m
+              [0m2[0m
+              [0m)[0m
+            [36m</button>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"space-y-2"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center justify-between"[31m
+            [36m>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"text-sm text-gray-400"[31m
+              [36m>[31m
+                [0mTu respuesta:[0m
+              [36m</label>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-sm text-red-400"[31m
+              [36m>[31m
+                [0m1[0m
+                [0m [0m
+                [0mpalabra[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<textarea[31m
+              [33mclass[31m=[32m"w-full p-4 rounded-xl bg-dark-700 border-2 border-dark-500 text-white placeholder-gray-500 resize-none focus:outline-none focus:border-accent-primary transition-colors"[31m
+              [33mplaceholder[31m=[32m"Escribe aqu├¡ tu respuesta..."[31m
+              [33mrows[31m=[32m"8"[31m
+            [36m>[31m
+              [0mD[0m
+            [36m</textarea>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-400"[31m
+            [36m>[31m
+              [0mNecesitas al menos [0m
+              [0m9[0m
+              [0m palabras m├ís[0m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"mt-8 flex justify-end gap-3"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"btn-secondary flex items-center gap-2"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-save w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M7 3v4a1 1 0 0 0 1 1h7"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [0mGuardar borrador[0m
+          [36m</button>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"btn-primary flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"[31m
+            [33mdisabled[31m=[32m""[31m
+          [36m>[31m
+            [0mEnviar[0m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-circle-check-big w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M21.801 10A10 10 0 1 1 17 3.335"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m9 11 3 3L22 4"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+          [36m</button>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</body>[31m
+[36m</html>[31m[39m
+[31m   [31m├ù[31m GuidedWriting ÔÇö full interaction[2m > [22mmodel response toggle shows/hides answer[39m[33m 2284[2mms[22m[39m
+[31m     ÔåÆ expected null to be truthy
+
+Ignored nodes: comments, script, style
+[36m<html>[31m
+  [36m<head />[31m
+  [36m<body>[31m
+    [36m<div>[31m
+      [36m<div[31m
+        [33mclass[31m=[32m"flex flex-col min-h-[70vh] py-4"[31m
+      [36m>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex items-center justify-between mb-6"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"flex items-center gap-2 text-gray-400 hover:text-white transition-colors"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-arrow-left w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m12 19-7-7 7-7"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M19 12H5"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<span>[31m
+              [0mVolver[0m
+            [36m</span>[31m
+          [36m</button>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"text-center mb-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"inline-flex items-center gap-2 px-4 py-2 rounded-full bg-emerald-500/20 text-emerald-400 mb-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-pen-tool w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M15.707 21.293a1 1 0 0 1-1.414 0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 0 0 1 0 1.414z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m2.3 2.3 7.286 7.286"[31m
+              [36m/>[31m
+              [36m<circle[31m
+                [33mcx[31m=[32m"11"[31m
+                [33mcy[31m=[32m"11"[31m
+                [33mr[31m=[32m"2"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<span[31m
+              [33mclass[31m=[32m"text-sm font-medium"[31m
+            [36m>[31m
+              [0mEscritura Guiada[0m
+            [36m</span>[31m
+          [36m</div>[31m
+          [36m<h1[31m
+            [33mclass[31m=[32m"text-2xl font-bold text-white mb-2"[31m
+          [36m>[31m
+            [0mEscritura de Email[0m
+          [36m</h1>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"card bg-gradient-to-br from-emerald-500/10 to-teal-500/10 border-emerald-500/20 mb-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"flex items-start gap-3"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-file-text w-6 h-6 text-emerald-400 flex-shrink-0"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M14 2v5a1 1 0 0 0 1 1h5"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M10 9H8"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M16 13H8"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M16 17H8"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [36m<div>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-xs text-emerald-400 uppercase tracking-wide mb-2"[31m
+              [36m>[31m
+                [0mEscenario[0m
+              [36m</p>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-gray-200"[31m
+              [36m>[31m
+                [0mEscribe un email formal a tu jefe.[0m
+              [36m</p>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"flex-1 space-y-6"[31m
+        [36m>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"card"[31m
+          [36m>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-lg text-white"[31m
+            [36m>[31m
+              [0mEscribe el saludo y la introducci├│n.[0m
+            [36m</p>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex flex-wrap gap-3 mt-4"[31m
+            [36m>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"flex items-center gap-1 px-3 py-1 rounded-full bg-dark-600 text-sm text-gray-400"[31m
+              [36m>[31m
+                [36m<svg[31m
+                  [33maria-hidden[31m=[32m"true"[31m
+                  [33mclass[31m=[32m"lucide lucide-clock w-4 h-4"[31m
+                  [33mfill[31m=[32m"none"[31m
+                  [33mheight[31m=[32m"24"[31m
+                  [33mstroke[31m=[32m"currentColor"[31m
+                  [33mstroke-linecap[31m=[32m"round"[31m
+                  [33mstroke-linejoin[31m=[32m"round"[31m
+                  [33mstroke-width[31m=[32m"2"[31m
+                  [33mviewBox[31m=[32m"0 0 24 24"[31m
+                  [33mwidth[31m=[32m"24"[31m
+                  [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+                [36m>[31m
+                  [36m<path[31m
+                    [33md[31m=[32m"M12 6v6l4 2"[31m
+                  [36m/>[31m
+                  [36m<circle[31m
+                    [33mcx[31m=[32m"12"[31m
+                    [33mcy[31m=[32m"12"[31m
+                    [33mr[31m=[32m"10"[31m
+                  [36m/>[31m
+                [36m</svg>[31m
+                [0mM├¡n: [0m
+                [0m10[0m
+                [0m palabras[0m
+              [36m</span>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"flex items-center gap-1 px-3 py-1 rounded-full bg-dark-600 text-sm text-gray-400"[31m
+              [36m>[31m
+                [0mM├íx: [0m
+                [0m50[0m
+                [0m palabras[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"mt-4 pt-4 border-t border-dark-500"[31m
+            [36m>[31m
+              [36m<p[31m
+                [33mclass[31m=[32m"text-sm text-gray-400 mb-2"[31m
+              [36m>[31m
+                [0mIncluye estos elementos:[0m
+              [36m</p>[31m
+              [36m<div[31m
+                [33mclass[31m=[32m"flex flex-wrap gap-2"[31m
+              [36m>[31m
+                [36m<span[31m
+                  [33mclass[31m=[32m"px-3 py-1 rounded-full bg-accent-primary/20 text-accent-primary text-sm"[31m
+                [36m>[31m
+                  [0mDear[0m
+                [36m</span>[31m
+                [36m<span[31m
+                  [33mclass[31m=[32m"px-3 py-1 rounded-full bg-accent-primary/20 text-accent-primary text-sm"[31m
+                [36m>[31m
+                  [0mwriting[0m
+                [36m</span>[31m
+              [36m</div>[31m
+            [36m</div>[31m
+          [36m</div>[31m
+          [36m<div>[31m
+            [36m<button[31m
+              [33mclass[31m=[32m"text-sm text-accent-primary hover:underline flex items-center gap-1"[31m
+            [36m>[31m
+              [36m<svg[31m
+                [33maria-hidden[31m=[32m"true"[31m
+                [33mclass[31m=[32m"lucide lucide-lightbulb w-4 h-4"[31m
+                [33mfill[31m=[32m"none"[31m
+                [33mheight[31m=[32m"24"[31m
+                [33mstroke[31m=[32m"currentColor"[31m
+                [33mstroke-linecap[31m=[32m"round"[31m
+                [33mstroke-linejoin[31m=[32m"round"[31m
+                [33mstroke-width[31m=[32m"2"[31m
+                [33mviewBox[31m=[32m"0 0 24 24"[31m
+                [33mwidth[31m=[32m"24"[31m
+                [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+              [36m>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M9 18h6"[31m
+                [36m/>[31m
+                [36m<path[31m
+                  [33md[31m=[32m"M10 22h4"[31m
+                [36m/>[31m
+              [36m</svg>[31m
+              [0mVer pistas ([0m
+              [0m2[0m
+              [0m)[0m
+            [36m</button>[31m
+          [36m</div>[31m
+          [36m<div[31m
+            [33mclass[31m=[32m"space-y-2"[31m
+          [36m>[31m
+            [36m<div[31m
+              [33mclass[31m=[32m"flex items-center justify-between"[31m
+            [36m>[31m
+              [36m<label[31m
+                [33mclass[31m=[32m"text-sm text-gray-400"[31m
+              [36m>[31m
+                [0mTu respuesta:[0m
+              [36m</label>[31m
+              [36m<span[31m
+                [33mclass[31m=[32m"text-sm text-red-400"[31m
+              [36m>[31m
+                [0m1[0m
+                [0m [0m
+                [0mpalabra[0m
+              [36m</span>[31m
+            [36m</div>[31m
+            [36m<textarea[31m
+              [33mclass[31m=[32m"w-full p-4 rounded-xl bg-dark-700 border-2 border-dark-500 text-white placeholder-gray-500 resize-none focus:outline-none focus:border-accent-primary transition-colors"[31m
+              [33mplaceholder[31m=[32m"Escribe aqu├¡ tu respuesta..."[31m
+              [33mrows[31m=[32m"8"[31m
+            [36m>[31m
+              [0mD[0m
+            [36m</textarea>[31m
+            [36m<p[31m
+              [33mclass[31m=[32m"text-sm text-red-400"[31m
+            [36m>[31m
+              [0mNecesitas al menos [0m
+              [0m9[0m
+              [0m palabras m├ís[0m
+            [36m</p>[31m
+          [36m</div>[31m
+        [36m</div>[31m
+        [36m<div[31m
+          [33mclass[31m=[32m"mt-8 flex justify-end gap-3"[31m
+        [36m>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"btn-secondary flex items-center gap-2"[31m
+          [36m>[31m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-save w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 1v7"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M7 3v4a1 1 0 0 0 1 1h7"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+            [0mGuardar borrador[0m
+          [36m</button>[31m
+          [36m<button[31m
+            [33mclass[31m=[32m"btn-primary flex items-center gap-2 disabled:opacity-50 disabled:cursor-not-allowed"[31m
+            [33mdisabled[31m=[32m""[31m
+          [36m>[31m
+            [0mEnviar[0m
+            [36m<svg[31m
+              [33maria-hidden[31m=[32m"true"[31m
+              [33mclass[31m=[32m"lucide lucide-circle-check-big w-5 h-5"[31m
+              [33mfill[31m=[32m"none"[31m
+              [33mheight[31m=[32m"24"[31m
+              [33mstroke[31m=[32m"currentColor"[31m
+              [33mstroke-linecap[31m=[32m"round"[31m
+              [33mstroke-linejoin[31m=[32m"round"[31m
+              [33mstroke-width[31m=[32m"2"[31m
+              [33mviewBox[31m=[32m"0 0 24 24"[31m
+              [33mwidth[31m=[32m"24"[31m
+              [33mxmlns[31m=[32m"http://www.w3.org/2000/svg"[31m
+            [36m>[31m
+              [36m<path[31m
+                [33md[31m=[32m"M21.801 10A10 10 0 1 1 17 3.335"[31m
+              [36m/>[31m
+              [36m<path[31m
+                [33md[31m=[32m"m9 11 3 3L22 4"[31m
+              [36m/>[31m
+            [36m</svg>[31m
+          [36m</button>[31m
+        [36m</div>[31m
+      [36m</div>[31m
+    [36m</div>[31m
+  [36m</body>[31m
+[36m</html>[31m[39m
+   [32mÔ£ô[39m GuidedWriting ÔÇö full interaction[2m > [22mVolver calls onBack[32m 57[2mms[22m[39m
+   [32mÔ£ô[39m SpeakingPractice ÔÇö full interaction (text fallback)[2m > [22mrenders phrase with listen button[32m 77[2mms[22m[39m
+   [32mÔ£ô[39m SpeakingPractice ÔÇö full interaction (text fallback)[2m > [22mtext fallback mode shows input field[32m 9[2mms[22m[39m
+   [33m[2mÔ£ô[22m[39m SpeakingPractice ÔÇö full interaction (text fallback)[2m > [22mtyping phrase and verifying advances [33m 399[2mms[22m[39m
+   [32mÔ£ô[39m SpeakingPractice ÔÇö full interaction (text fallback)[2m > [22mVolver calls onBack[32m 76[2mms[22m[39m
+
+[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m[1m[41m Failed Tests 3 
+[49m[22m[31mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/e2e/activity-extended.test.tsx[2m > 
+[22mGuidedWriting ÔÇö full interaction[2m > [22mtyping enough words enables 
+submit
+[31m[1mError[22m[39m: 
+[2mexpect([22m[31melement[39m[2m).not.toBeDisabled()[22m
+
+Received element is disabled:
+  [31m<button
+  class="btn-primary flex items-center gap-2 disabled:opacity-50 
+disabled:cursor-not-allowed"
+  disabled=""
+/>[39m
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex flex-col min-h-[70vh] py-4"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center justify-between mb-6"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"flex items-center gap-2 text-gray-400 
+hover:text-white transition-colors"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-arrow-left w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m12 19-7-7 7-7"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M19 12H5"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<span>[39m
+              [0mVolver[0m
+            [36m</span>[39m
+          [36m</button>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"inline-flex items-center gap-2 px-4 py-2 
+rounded-full bg-emerald-500/20 text-emerald-400 mb-3"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-pen-tool w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M15.707 21.293a1 1 0 0 1-1.414 
+0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 
+0 0 1 0 1.414z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 
+2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m2.3 2.3 7.286 7.286"[39m
+              [36m/>[39m
+              [36m<circle[39m
+                [33mcx[39m=[32m"11"[39m
+                [33mcy[39m=[32m"11"[39m
+                [33mr[39m=[32m"2"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"text-sm font-medium"[39m
+            [36m>[39m
+              [0mEscritura Guiada[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-2xl font-bold text-white mb-2"[39m
+          [36m>[39m
+            [0mEscritura de Email[0m
+          [36m</h1>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"card bg-gradient-to-br from-emerald-500/10 
+to-teal-500/10 border-emerald-500/20 mb-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-start gap-3"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-file-text w-6 h-6 
+text-emerald-400 flex-shrink-0"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 
+2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M14 2v5a1 1 0 0 0 1 1h5"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M10 9H8"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M16 13H8"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M16 17H8"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<div>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-xs text-emerald-400 uppercase 
+tracking-wide mb-2"[39m
+              [36m>[39m
+                [0mEscenario[0m
+              [36m</p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-gray-200"[39m
+              [36m>[39m
+                [0mEscribe un email formal a tu jefe.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex-1 space-y-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"card"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-lg text-white"[39m
+            [36m>[39m
+              [0mEscribe el saludo y la introducci├│n.[0m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-wrap gap-3 mt-4"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center gap-1 px-3 py-1 
+rounded-full bg-dark-600 text-sm text-gray-400"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33maria-hidden[39m=[32m"true"[39m
+                  [33mclass[39m=[32m"lucide lucide-clock w-4 h-4"[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"24"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"24"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 6v6l4 2"[39m
+                  [36m/>[39m
+                  [36m<circle[39m
+                    [33mcx[39m=[32m"12"[39m
+                    [33mcy[39m=[32m"12"[39m
+                    [33mr[39m=[32m"10"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [0mM├¡n: [0m
+                [0m10[0m
+                [0m palabras[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center gap-1 px-3 py-1 
+rounded-full bg-dark-600 text-sm text-gray-400"[39m
+              [36m>[39m
+                [0mM├íx: [0m
+                [0m50[0m
+                [0m palabras[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"mt-4 pt-4 border-t border-dark-500"[39m
+            [36m>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-sm text-gray-400 mb-2"[39m
+              [36m>[39m
+                [0mIncluye estos elementos:[0m
+              [36m</p>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex flex-wrap gap-2"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"px-3 py-1 rounded-full 
+bg-accent-primary/20 text-accent-primary text-sm"[39m
+                [36m>[39m
+                  [0mDear[0m
+                [36m</span>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"px-3 py-1 rounded-full 
+bg-accent-primary/20 text-accent-primary text-sm"[39m
+                [36m>[39m
+                  [0mwriting[0m
+                [36m</span>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"text-sm text-accent-primary 
+hover:underline flex items-center gap-1"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mclass[39m=[32m"lucide lucide-lightbulb w-4 h-4"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"24"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"24"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 
+1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M9 18h6"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M10 22h4"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+              [0mVer pistas ([0m
+              [0m2[0m
+              [0m)[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"space-y-2"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex items-center justify-between"[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"text-sm text-gray-400"[39m
+              [36m>[39m
+                [0mTu respuesta:[0m
+              [36m</label>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"text-sm text-red-400"[39m
+              [36m>[39m
+                [0m1[0m
+                [0m [0m
+                [0mpalabra[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<textarea[39m
+              [33mclass[39m=[32m"w-full p-4 rounded-xl bg-dark-700 border-2 
+border-dark-500 text-white placeholder-gray-500 resize-none focus:outline-none 
+focus:border-accent-primary transition-colors"[39m
+              [33mplaceholder[39m=[32m"Escribe aqu├¡ tu respuesta..."[39m
+              [33mrows[39m=[32m"8"[39m
+            [36m>[39m
+              [0mD[0m
+            [36m</textarea>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-sm text-red-400"[39m
+            [36m>[39m
+              [0mNecesitas al menos [0m
+              [0m9[0m
+              [0m palabras m├ís[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 flex justify-end gap-3"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn-secondary flex items-center gap-2"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-save w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 
+1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 
+1v7"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M7 3v4a1 1 0 0 0 1 1h7"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mGuardar borrador[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn-primary flex items-center gap-2 
+disabled:opacity-50 disabled:cursor-not-allowed"[39m
+            [33mdisabled[39m=[32m""[39m
+          [36m>[39m
+            [0mEnviar[0m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-circle-check-big w-5 
+h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M21.801 10A10 10 0 1 1 17 3.335"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m9 11 3 3L22 4"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+[36m [2mÔØ»[22m 
+src/__tests__/e2e/activity-extended.test.tsx:[2m700:29[22m[39m
+    [90m698| [39m    [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+    [90m699| [39m      [35mconst[39m submitBtn [33m=[39m 
+screen[33m.[39m[34mgetByText[39m([36m/Enviar/[39m)[33m;[39m
+    [90m700| [39m      [34mexpect[39m(submitBtn)[33m.[39mnot[33m.[39m[
+34mtoBeDisabled[39m()[33m;[39m
+    [90m   | [39m                            [31m^[39m
+    [90m701| [39m    })[33m;[39m
+    [90m702| [39m  })[33m;[39m
+[90m [2mÔØ»[22m runWithExpensiveErrorDiagnosticsDisabled 
+node_modules/@testing-library/dom/dist/config.js:[2m47:12[22m[39m
+[90m [2mÔØ»[22m checkCallback 
+node_modules/@testing-library/dom/dist/wait-for.js:[2m124:77[22m[39m
+[90m [2mÔØ»[22m Timeout.checkRealTimersCallback 
+node_modules/@testing-library/dom/dist/wait-for.js:[2m118:16[22m[39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»[1/3]ÔÄ»[22m[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/e2e/activity-extended.test.tsx[2m > 
+[22mGuidedWriting ÔÇö full interaction[2m > [22msubmitting shows 
+self-evaluation phase
+[31m[1mAssertionError[22m[39m: expected false to be truthy
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex flex-col min-h-[70vh] py-4"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center justify-between mb-6"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"flex items-center gap-2 text-gray-400 
+hover:text-white transition-colors"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-arrow-left w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m12 19-7-7 7-7"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M19 12H5"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<span>[39m
+              [0mVolver[0m
+            [36m</span>[39m
+          [36m</button>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"inline-flex items-center gap-2 px-4 py-2 
+rounded-full bg-emerald-500/20 text-emerald-400 mb-3"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-pen-tool w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M15.707 21.293a1 1 0 0 1-1.414 
+0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 
+0 0 1 0 1.414z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 
+2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m2.3 2.3 7.286 7.286"[39m
+              [36m/>[39m
+              [36m<circle[39m
+                [33mcx[39m=[32m"11"[39m
+                [33mcy[39m=[32m"11"[39m
+                [33mr[39m=[32m"2"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"text-sm font-medium"[39m
+            [36m>[39m
+              [0mEscritura Guiada[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-2xl font-bold text-white mb-2"[39m
+          [36m>[39m
+            [0mEscritura de Email[0m
+          [36m</h1>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"card bg-gradient-to-br from-emerald-500/10 
+to-teal-500/10 border-emerald-500/20 mb-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-start gap-3"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-file-text w-6 h-6 
+text-emerald-400 flex-shrink-0"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 
+2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M14 2v5a1 1 0 0 0 1 1h5"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M10 9H8"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M16 13H8"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M16 17H8"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<div>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-xs text-emerald-400 uppercase 
+tracking-wide mb-2"[39m
+              [36m>[39m
+                [0mEscenario[0m
+              [36m</p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-gray-200"[39m
+              [36m>[39m
+                [0mEscribe un email formal a tu jefe.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex-1 space-y-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"card"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-lg text-white"[39m
+            [36m>[39m
+              [0mEscribe el saludo y la introducci├│n.[0m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-wrap gap-3 mt-4"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center gap-1 px-3 py-1 
+rounded-full bg-dark-600 text-sm text-gray-400"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33maria-hidden[39m=[32m"true"[39m
+                  [33mclass[39m=[32m"lucide lucide-clock w-4 h-4"[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"24"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"24"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 6v6l4 2"[39m
+                  [36m/>[39m
+                  [36m<circle[39m
+                    [33mcx[39m=[32m"12"[39m
+                    [33mcy[39m=[32m"12"[39m
+                    [33mr[39m=[32m"10"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [0mM├¡n: [0m
+                [0m10[0m
+                [0m palabras[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center gap-1 px-3 py-1 
+rounded-full bg-dark-600 text-sm text-gray-400"[39m
+              [36m>[39m
+                [0mM├íx: [0m
+                [0m50[0m
+                [0m palabras[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"mt-4 pt-4 border-t border-dark-500"[39m
+            [36m>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-sm text-gray-400 mb-2"[39m
+              [36m>[39m
+                [0mIncluye estos elementos:[0m
+              [36m</p>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex flex-wrap gap-2"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"px-3 py-1 rounded-full 
+bg-accent-primary/20 text-accent-primary text-sm"[39m
+                [36m>[39m
+                  [0mDear[0m
+                [36m</span>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"px-3 py-1 rounded-full 
+bg-accent-primary/20 text-accent-primary text-sm"[39m
+                [36m>[39m
+                  [0mwriting[0m
+                [36m</span>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"text-sm text-accent-primary 
+hover:underline flex items-center gap-1"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mclass[39m=[32m"lucide lucide-lightbulb w-4 h-4"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"24"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"24"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 
+1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M9 18h6"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M10 22h4"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+              [0mVer pistas ([0m
+              [0m2[0m
+              [0m)[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"space-y-2"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex items-center justify-between"[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"text-sm text-gray-400"[39m
+              [36m>[39m
+                [0mTu respuesta:[0m
+              [36m</label>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"text-sm text-red-400"[39m
+              [36m>[39m
+                [0m1[0m
+                [0m [0m
+                [0mpalabra[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<textarea[39m
+              [33mclass[39m=[32m"w-full p-4 rounded-xl bg-dark-700 border-2 
+border-dark-500 text-white placeholder-gray-500 resize-none focus:outline-none 
+focus:border-accent-primary transition-colors"[39m
+              [33mplaceholder[39m=[32m"Escribe aqu├¡ tu respuesta..."[39m
+              [33mrows[39m=[32m"8"[39m
+            [36m>[39m
+              [0mD[0m
+            [36m</textarea>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-sm text-red-400"[39m
+            [36m>[39m
+              [0mNecesitas al menos [0m
+              [0m9[0m
+              [0m palabras m├ís[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 flex justify-end gap-3"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn-secondary flex items-center gap-2"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-save w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 
+1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 
+1v7"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M7 3v4a1 1 0 0 0 1 1h7"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mGuardar borrador[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn-primary flex items-center gap-2 
+disabled:opacity-50 disabled:cursor-not-allowed"[39m
+            [33mdisabled[39m=[32m""[39m
+          [36m>[39m
+            [0mEnviar[0m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-circle-check-big w-5 
+h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M21.801 10A10 10 0 1 1 17 3.335"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m9 11 3 3L22 4"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+
+[32m- Expected[39m
+[31m+ Received[39m
+
+[32m- true[39m
+[31m+ false[39m
+
+[36m [2mÔØ»[22m 
+src/__tests__/e2e/activity-extended.test.tsx:[2m716:207[22m[39m
+
+[90m [2mÔØ»[22m runWithExpensiveErrorDiagnosticsDisabled 
+node_modules/@testing-library/dom/dist/config.js:[2m47:12[22m[39m
+[90m [2mÔØ»[22m checkCallback 
+node_modules/@testing-library/dom/dist/wait-for.js:[2m124:77[22m[39m
+[90m [2mÔØ»[22m Timeout.checkRealTimersCallback 
+node_modules/@testing-library/dom/dist/wait-for.js:[2m118:16[22m[39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»[2/3]ÔÄ»[22m[39m
+
+[41m[1m FAIL [22m[49m src/__tests__/e2e/activity-extended.test.tsx[2m > 
+[22mGuidedWriting ÔÇö full interaction[2m > [22mmodel response toggle 
+shows/hides answer
+[31m[1mAssertionError[22m[39m: expected null to be truthy
+
+Ignored nodes: comments, script, style
+[36m<html>[39m
+  [36m<head />[39m
+  [36m<body>[39m
+    [36m<div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"flex flex-col min-h-[70vh] py-4"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex items-center justify-between mb-6"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"flex items-center gap-2 text-gray-400 
+hover:text-white transition-colors"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-arrow-left w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m12 19-7-7 7-7"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M19 12H5"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<span>[39m
+              [0mVolver[0m
+            [36m</span>[39m
+          [36m</button>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"text-center mb-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"inline-flex items-center gap-2 px-4 py-2 
+rounded-full bg-emerald-500/20 text-emerald-400 mb-3"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-pen-tool w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M15.707 21.293a1 1 0 0 1-1.414 
+0l-1.586-1.586a1 1 0 0 1 0-1.414l5.586-5.586a1 1 0 0 1 1.414 0l1.586 1.586a1 1 
+0 0 1 0 1.414z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m18 13-1.375-6.874a1 1 0 0 0-.746-.776L3.235 
+2.028a1 1 0 0 0-1.207 1.207L5.35 15.879a1 1 0 0 0 .776.746L13 18"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m2.3 2.3 7.286 7.286"[39m
+              [36m/>[39m
+              [36m<circle[39m
+                [33mcx[39m=[32m"11"[39m
+                [33mcy[39m=[32m"11"[39m
+                [33mr[39m=[32m"2"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"text-sm font-medium"[39m
+            [36m>[39m
+              [0mEscritura Guiada[0m
+            [36m</span>[39m
+          [36m</div>[39m
+          [36m<h1[39m
+            [33mclass[39m=[32m"text-2xl font-bold text-white mb-2"[39m
+          [36m>[39m
+            [0mEscritura de Email[0m
+          [36m</h1>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"card bg-gradient-to-br from-emerald-500/10 
+to-teal-500/10 border-emerald-500/20 mb-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"flex items-start gap-3"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-file-text w-6 h-6 
+text-emerald-400 flex-shrink-0"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M6 22a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h8a2.4 
+2.4 0 0 1 1.704.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M14 2v5a1 1 0 0 0 1 1h5"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M10 9H8"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M16 13H8"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M16 17H8"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [36m<div>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-xs text-emerald-400 uppercase 
+tracking-wide mb-2"[39m
+              [36m>[39m
+                [0mEscenario[0m
+              [36m</p>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-gray-200"[39m
+              [36m>[39m
+                [0mEscribe un email formal a tu jefe.[0m
+              [36m</p>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"flex-1 space-y-6"[39m
+        [36m>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"card"[39m
+          [36m>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-lg text-white"[39m
+            [36m>[39m
+              [0mEscribe el saludo y la introducci├│n.[0m
+            [36m</p>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex flex-wrap gap-3 mt-4"[39m
+            [36m>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center gap-1 px-3 py-1 
+rounded-full bg-dark-600 text-sm text-gray-400"[39m
+              [36m>[39m
+                [36m<svg[39m
+                  [33maria-hidden[39m=[32m"true"[39m
+                  [33mclass[39m=[32m"lucide lucide-clock w-4 h-4"[39m
+                  [33mfill[39m=[32m"none"[39m
+                  [33mheight[39m=[32m"24"[39m
+                  [33mstroke[39m=[32m"currentColor"[39m
+                  [33mstroke-linecap[39m=[32m"round"[39m
+                  [33mstroke-linejoin[39m=[32m"round"[39m
+                  [33mstroke-width[39m=[32m"2"[39m
+                  [33mviewBox[39m=[32m"0 0 24 24"[39m
+                  [33mwidth[39m=[32m"24"[39m
+                  [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+                [36m>[39m
+                  [36m<path[39m
+                    [33md[39m=[32m"M12 6v6l4 2"[39m
+                  [36m/>[39m
+                  [36m<circle[39m
+                    [33mcx[39m=[32m"12"[39m
+                    [33mcy[39m=[32m"12"[39m
+                    [33mr[39m=[32m"10"[39m
+                  [36m/>[39m
+                [36m</svg>[39m
+                [0mM├¡n: [0m
+                [0m10[0m
+                [0m palabras[0m
+              [36m</span>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"flex items-center gap-1 px-3 py-1 
+rounded-full bg-dark-600 text-sm text-gray-400"[39m
+              [36m>[39m
+                [0mM├íx: [0m
+                [0m50[0m
+                [0m palabras[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"mt-4 pt-4 border-t border-dark-500"[39m
+            [36m>[39m
+              [36m<p[39m
+                [33mclass[39m=[32m"text-sm text-gray-400 mb-2"[39m
+              [36m>[39m
+                [0mIncluye estos elementos:[0m
+              [36m</p>[39m
+              [36m<div[39m
+                [33mclass[39m=[32m"flex flex-wrap gap-2"[39m
+              [36m>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"px-3 py-1 rounded-full 
+bg-accent-primary/20 text-accent-primary text-sm"[39m
+                [36m>[39m
+                  [0mDear[0m
+                [36m</span>[39m
+                [36m<span[39m
+                  [33mclass[39m=[32m"px-3 py-1 rounded-full 
+bg-accent-primary/20 text-accent-primary text-sm"[39m
+                [36m>[39m
+                  [0mwriting[0m
+                [36m</span>[39m
+              [36m</div>[39m
+            [36m</div>[39m
+          [36m</div>[39m
+          [36m<div>[39m
+            [36m<button[39m
+              [33mclass[39m=[32m"text-sm text-accent-primary 
+hover:underline flex items-center gap-1"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33maria-hidden[39m=[32m"true"[39m
+                [33mclass[39m=[32m"lucide lucide-lightbulb w-4 h-4"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"24"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"24"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M15 14c.2-1 .7-1.7 1.5-2.5 1-.9 1.5-2.2 
+1.5-3.5A6 6 0 0 0 6 8c0 1 .2 2.2 1.5 3.5.7.7 1.3 1.5 1.5 2.5"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M9 18h6"[39m
+                [36m/>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M10 22h4"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+              [0mVer pistas ([0m
+
+[2m Test Files [22m [1m[31m1 failed[39m[22m[90m (1)[39m
+[2m      Tests [22m [1m[31m3 failed[39m[22m[2m | [22m[1m[32m31 passed[39m[22m[90m (34)[39m
+[2m   Start at [22m 17:20:44
+[2m   Duration [22m 16.64s[2m (transform 341ms, setup 263ms, collect 369ms, tests 12.43s, environment 1.19s, prepare 141ms)[22m
+
+              [0m2[0m
+              [0m)[0m
+            [36m</button>[39m
+          [36m</div>[39m
+          [36m<div[39m
+            [33mclass[39m=[32m"space-y-2"[39m
+          [36m>[39m
+            [36m<div[39m
+              [33mclass[39m=[32m"flex items-center justify-between"[39m
+            [36m>[39m
+              [36m<label[39m
+                [33mclass[39m=[32m"text-sm text-gray-400"[39m
+              [36m>[39m
+                [0mTu respuesta:[0m
+              [36m</label>[39m
+              [36m<span[39m
+                [33mclass[39m=[32m"text-sm text-red-400"[39m
+              [36m>[39m
+                [0m1[0m
+                [0m [0m
+                [0mpalabra[0m
+              [36m</span>[39m
+            [36m</div>[39m
+            [36m<textarea[39m
+              [33mclass[39m=[32m"w-full p-4 rounded-xl bg-dark-700 border-2 
+border-dark-500 text-white placeholder-gray-500 resize-none focus:outline-none 
+focus:border-accent-primary transition-colors"[39m
+              [33mplaceholder[39m=[32m"Escribe aqu├¡ tu respuesta..."[39m
+              [33mrows[39m=[32m"8"[39m
+            [36m>[39m
+              [0mD[0m
+            [36m</textarea>[39m
+            [36m<p[39m
+              [33mclass[39m=[32m"text-sm text-red-400"[39m
+            [36m>[39m
+              [0mNecesitas al menos [0m
+              [0m9[0m
+              [0m palabras m├ís[0m
+            [36m</p>[39m
+          [36m</div>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"mt-8 flex justify-end gap-3"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn-secondary flex items-center gap-2"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-save w-5 h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M15.2 3a2 2 0 0 1 1.4.6l3.8 3.8a2 2 0 0 1 .6 
+1.4V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2z"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M17 21v-7a1 1 0 0 0-1-1H8a1 1 0 0 0-1 
+1v7"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M7 3v4a1 1 0 0 0 1 1h7"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+            [0mGuardar borrador[0m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"btn-primary flex items-center gap-2 
+disabled:opacity-50 disabled:cursor-not-allowed"[39m
+            [33mdisabled[39m=[32m""[39m
+          [36m>[39m
+            [0mEnviar[0m
+            [36m<svg[39m
+              [33maria-hidden[39m=[32m"true"[39m
+              [33mclass[39m=[32m"lucide lucide-circle-check-big w-5 
+h-5"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"24"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"24"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M21.801 10A10 10 0 1 1 17 3.335"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"m9 11 3 3L22 4"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+          [36m</button>[39m
+        [36m</div>[39m
+      [36m</div>[39m
+    [36m</div>[39m
+  [36m</body>[39m
+[36m</html>[39m
+
+[32m- Expected:[39m 
+true
+
+[31m+ Received:[39m 
+null
+
+[36m [2mÔØ»[22m 
+src/__tests__/e2e/activity-extended.test.tsx:[2m730:24[22m[39m
+    [90m728| [39m    [35mawait[39m [34mwaitFor[39m(() [33m=>[39m {
+    [90m729| [39m      const modelBtn = screen.queryByText(/respuesta 
+modelo/i) || screÔÇª
+    [90m730| [39m      
+[34mexpect[39m(modelBtn)[33m.[39m[34mtoBeTruthy[39m()[33m;[39m
+    [90m   | [39m                       [31m^[39m
+    [90m731| [39m    })[33m;[39m
+    [90m732| [39m
+[90m [2mÔØ»[22m runWithExpensiveErrorDiagnosticsDisabled 
+node_modules/@testing-library/dom/dist/config.js:[2m47:12[22m[39m
+[90m [2mÔØ»[22m checkCallback 
+node_modules/@testing-library/dom/dist/wait-for.js:[2m124:77[22m[39m
+[90m [2mÔØ»[22m Timeout.checkRealTimersCallback 
+node_modules/@testing-library/dom/dist/wait-for.js:[2m118:16[22m[39m
+
+[31m[2mÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»ÔÄ»Ô
+Ä»[3/3]ÔÄ»[22m[39m
+

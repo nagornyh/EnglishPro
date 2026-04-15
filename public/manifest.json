@@ -1,0 +1,44 @@
+{
+  "name": "EnglishPro - Aprende Inglés",
+  "short_name": "EnglishPro",
+  "description": "Aplicación completa para aprender inglés desde A1 hasta C2+",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education"],
+  "shortcuts": [
+    {
+      "name": "Práctica Rápida",
+      "short_name": "Práctica",
+      "description": "Empieza una sesión de práctica",
+      "url": "/practice",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Revisión SRS",
+      "short_name": "Revisión",
+      "description": "Repasa tus tarjetas pendientes",
+      "url": "/review",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ],
+  "screenshots": [],
+  "prefer_related_applications": false
+}
