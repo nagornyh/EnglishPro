@@ -240,7 +240,7 @@ export default function SaveProgressButton({ floating = true }: SaveProgressButt
       ) : (
         <Download className="w-5 h-5" />
       )}
-      <span>{saving ? 'Guardando...' : 'Guardar Progreso'}</span>
+      <span>{saving ? 'Guardando...' : 'Exportar Progreso'}</span>
     </button>
   );
 }

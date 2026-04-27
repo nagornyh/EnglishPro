@@ -2073,21 +2073,6 @@ export const irregularVerbs: IrregularVerb[] = [
     category: 'actions'
   },
   {
-    id: 'iv-a09',
-    infinitive: 'wring',
-    pastSimple: 'wrung',
-    pastParticiple: 'wrung',
-    translation: 'retorcer / escurrir',
-    example: {
-      infinitive: 'Wring out the cloth before using it.',
-      pastSimple: 'She wrung her hands in despair.',
-      pastParticiple: 'The towel had been wrung out.'
-    },
-    frequency: 'less_common',
-    level: 8,
-    category: 'actions'
-  },
-  {
     id: 'iv-a10',
     infinitive: 'beset',
     pastSimple: 'beset',
@@ -2120,51 +2105,6 @@ export const irregularVerbs: IrregularVerb[] = [
     category: 'other'
   },
   {
-    id: 'iv-c1-02',
-    infinitive: 'forbid',
-    pastSimple: 'forbade',
-    pastParticiple: 'forbidden',
-    translation: 'prohibir',
-    example: {
-      infinitive: 'They forbid smoking in the building.',
-      pastSimple: 'The judge forbade him from leaving the country.',
-      pastParticiple: 'Smoking has been forbidden on all flights.'
-    },
-    frequency: 'common',
-    level: 10,
-    category: 'communication'
-  },
-  {
-    id: 'iv-c1-03',
-    infinitive: 'forsake',
-    pastSimple: 'forsook',
-    pastParticiple: 'forsaken',
-    translation: 'abandonar / renunciar a',
-    example: {
-      infinitive: 'He chose to forsake his career for his family.',
-      pastSimple: 'She forsook her old friends after moving abroad.',
-      pastParticiple: 'The village was forsaken after the flood.'
-    },
-    frequency: 'less_common',
-    level: 10,
-    category: 'other'
-  },
-  {
-    id: 'iv-c1-04',
-    infinitive: 'freeze',
-    pastSimple: 'froze',
-    pastParticiple: 'frozen',
-    translation: 'congelar / helarse',
-    example: {
-      infinitive: 'The pipes freeze when it is very cold.',
-      pastSimple: 'The lake froze overnight.',
-      pastParticiple: 'The water has frozen in the pipes.'
-    },
-    frequency: 'common',
-    level: 10,
-    category: 'states'
-  },
-  {
     id: 'iv-c1-05',
     infinitive: 'grind',
     pastSimple: 'ground',
@@ -2178,36 +2118,6 @@ export const irregularVerbs: IrregularVerb[] = [
     frequency: 'less_common',
     level: 10,
     category: 'actions'
-  },
-  {
-    id: 'iv-c1-06',
-    infinitive: 'kneel',
-    pastSimple: 'knelt',
-    pastParticiple: 'knelt',
-    translation: 'arrodillarse',
-    example: {
-      infinitive: 'Worshippers kneel during prayer.',
-      pastSimple: 'He knelt down to tie his shoelace.',
-      pastParticiple: 'She has knelt in prayer every night.'
-    },
-    frequency: 'less_common',
-    level: 10,
-    category: 'actions'
-  },
-  {
-    id: 'iv-c1-07',
-    infinitive: 'leap',
-    pastSimple: 'leapt',
-    pastParticiple: 'leapt',
-    translation: 'saltar / dar un salto',
-    example: {
-      infinitive: 'The cat can leap very high.',
-      pastSimple: 'She leapt over the fence with ease.',
-      pastParticiple: 'Profits have leapt by 40% this year.'
-    },
-    frequency: 'less_common',
-    level: 10,
-    category: 'movement'
   },
   {
     id: 'iv-c1-08',
@@ -2284,38 +2194,8 @@ export const irregularVerbs: IrregularVerb[] = [
     level: 10,
     category: 'states'
   },
-  {
-    id: 'iv-c1-13',
-    infinitive: 'weave',
-    pastSimple: 'wove',
-    pastParticiple: 'woven',
-    translation: 'tejer / entrelazar',
-    example: {
-      infinitive: 'Artisans weave cloth by hand in this region.',
-      pastSimple: 'She wove a beautiful pattern into the fabric.',
-      pastParticiple: 'The threads have been woven into a tapestry.'
-    },
-    frequency: 'less_common',
-    level: 10,
-    category: 'creation'
-  },
 
   // === NIVEL 11 (C1+ — verbos de registro formal y literario) ===
-  {
-    id: 'iv-c1plus-01',
-    infinitive: 'befall',
-    pastSimple: 'befell',
-    pastParticiple: 'befallen',
-    translation: 'ocurrirle a alguien (formal/literario)',
-    example: {
-      infinitive: 'Many dangers can befall a traveller.',
-      pastSimple: 'A terrible misfortune befell the family.',
-      pastParticiple: 'No harm has befallen the children.'
-    },
-    frequency: 'rare',
-    level: 11,
-    category: 'other'
-  },
   {
     id: 'iv-c1plus-02',
     infinitive: 'behold',
@@ -2345,21 +2225,6 @@ export const irregularVerbs: IrregularVerb[] = [
     frequency: 'rare',
     level: 11,
     category: 'emotions'
-  },
-  {
-    id: 'iv-c1plus-04',
-    infinitive: 'cleave',
-    pastSimple: 'clove',
-    pastParticiple: 'cloven',
-    translation: 'hender / dividir (literario)',
-    example: {
-      infinitive: 'An axe can cleave a log in one blow.',
-      pastSimple: 'Lightning clove the ancient oak in two.',
-      pastParticiple: 'The community was cloven by the dispute.'
-    },
-    frequency: 'rare',
-    level: 11,
-    category: 'actions'
   },
   {
     id: 'iv-c1plus-05',
@@ -2437,21 +2302,6 @@ export const irregularVerbs: IrregularVerb[] = [
     category: 'actions'
   },
   {
-    id: 'iv-c1plus-10',
-    infinitive: 'smite',
-    pastSimple: 'smote',
-    pastParticiple: 'smitten',
-    translation: 'golpear / herir (literario) / estar prendado',
-    example: {
-      infinitive: 'He claimed God would smite the wicked.',
-      pastSimple: 'The hero smote the enemy with his sword.',
-      pastParticiple: 'He was completely smitten with her from the start.'
-    },
-    frequency: 'rare',
-    level: 11,
-    category: 'emotions'
-  },
-  {
     id: 'iv-c1plus-11',
     infinitive: 'stride',
     pastSimple: 'strode',
@@ -2483,21 +2333,6 @@ export const irregularVerbs: IrregularVerb[] = [
   },
 
   // === NIVEL 12 (C2 — verbos raros, arcaicos y de registro muy elevado) ===
-  {
-    id: 'iv-c2-01',
-    infinitive: 'abide',
-    pastSimple: 'abode',
-    pastParticiple: 'abode',
-    translation: 'residir / tolerar (formal/arcaico)',
-    example: {
-      infinitive: 'I cannot abide rudeness of any kind.',
-      pastSimple: 'The hermit abode in the mountains for many years.',
-      pastParticiple: 'He has abode by every rule of the institution.'
-    },
-    frequency: 'rare',
-    level: 12,
-    category: 'states'
-  },
   {
     id: 'iv-c2-02',
     infinitive: 'betide',
@@ -2618,21 +2453,6 @@ export const irregularVerbs: IrregularVerb[] = [
     level: 12,
     category: 'creation'
   },
-  {
-    id: 'iv-c2-10',
-    infinitive: 'wring',
-    pastSimple: 'wrung',
-    pastParticiple: 'wrung',
-    translation: 'retorcer / escurrir',
-    example: {
-      infinitive: 'She wrings the cloth to remove excess water.',
-      pastSimple: 'He wrung his hands nervously throughout the trial.',
-      pastParticiple: 'Every concession has been wrung from the negotiators.'
-    },
-    frequency: 'less_common',
-    level: 12,
-    category: 'actions'
-  },
 
   // === NIVEL 13 (C2+ — verbos arcaicos, poéticos y de especialidad) ===
   {
@@ -2694,21 +2514,6 @@ export const irregularVerbs: IrregularVerb[] = [
     frequency: 'rare',
     level: 13,
     category: 'actions'
-  },
-  {
-    id: 'iv-c2plus-05',
-    infinitive: 'swear',
-    pastSimple: 'swore',
-    pastParticiple: 'sworn',
-    translation: 'jurar / maldecir',
-    example: {
-      infinitive: 'Witnesses must swear to tell the truth.',
-      pastSimple: 'He swore revenge the day they exiled him.',
-      pastParticiple: 'She has sworn an oath of allegiance.'
-    },
-    frequency: 'common',
-    level: 13,
-    category: 'communication'
   },
   {
     id: 'iv-c2plus-06',
