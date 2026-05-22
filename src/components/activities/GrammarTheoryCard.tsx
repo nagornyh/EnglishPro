@@ -44,7 +44,7 @@ export default function GrammarTheoryCard({
     A1: 'from-green-500/20 to-green-600/10 border-green-500/30',
     A2: 'from-emerald-500/20 to-emerald-600/10 border-emerald-500/30',
     B1: 'from-blue-500/20 to-blue-600/10 border-blue-500/30',
-    B2: 'from-indigo-500/20 to-indigo-600/10 border-indigo-500/30',
+    B2: 'from-teal-500/20 to-teal-600/10 border-teal-500/30',
     C1: 'from-purple-500/20 to-purple-600/10 border-purple-500/30',
     C2: 'from-rose-500/20 to-rose-600/10 border-rose-500/30',
   };

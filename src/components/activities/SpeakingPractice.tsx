@@ -268,7 +268,7 @@ export default function SpeakingPractice({
 
       {/* Title */}
       <div className="text-center mb-6">
-        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/20 text-violet-400 mb-3">
+        <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-500/20 text-purple-400 mb-3">
           <Mic className="w-5 h-5" />
           <span className="text-sm font-medium">Práctica de Pronunciación</span>
         </div>
@@ -284,9 +284,9 @@ export default function SpeakingPractice({
           className="flex-1 space-y-6"
         >
           {/* Target Phrase */}
-          <div className="card bg-gradient-to-br from-violet-500/10 to-purple-500/10 border-violet-500/20">
+          <div className="card bg-gradient-to-br from-purple-500/10 to-purple-500/10 border-purple-500/20">
             <div className="text-center">
-              <p className="text-xs text-violet-400 uppercase tracking-wide mb-3">
+              <p className="text-xs text-purple-400 uppercase tracking-wide mb-3">
                 Repite esta frase
               </p>
               <p className="text-2xl md:text-3xl text-white font-medium mb-3">
@@ -299,7 +299,7 @@ export default function SpeakingPractice({
                   {!showPhonetic ? (
                     <button
                       onClick={() => setShowPhonetic(true)}
-                      className="text-sm text-violet-400 hover:underline"
+                      className="text-sm text-purple-400 hover:underline"
                     >
                       Ver pronunciación
                     </button>
@@ -320,7 +320,7 @@ export default function SpeakingPractice({
                 className="mt-4 flex items-center gap-2 px-4 py-2 rounded-xl bg-dark-700 hover:bg-dark-600 text-white transition-colors mx-auto"
               >
                 {isPlaying ? (
-                  <Pause className="w-5 h-5 text-violet-400" />
+                  <Pause className="w-5 h-5 text-purple-400" />
                 ) : (
                   <Volume2 className="w-5 h-5" />
                 )}
@@ -343,7 +343,7 @@ export default function SpeakingPractice({
                       ? 'bg-red-500 animate-pulse'
                       : feedback === 'correct'
                       ? 'bg-green-500'
-                      : 'bg-violet-500 hover:bg-violet-600'
+                      : 'bg-purple-500 hover:bg-purple-600'
                   }`}
                 >
                   {feedback === 'correct' ? (

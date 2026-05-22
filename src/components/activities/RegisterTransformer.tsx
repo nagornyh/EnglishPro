@@ -213,8 +213,8 @@ export default function RegisterTransformer({
         className="flex flex-col items-center justify-center min-h-[60vh] py-8"
       >
         <div className="w-full max-w-md text-center space-y-6">
-          <div className="w-20 h-20 rounded-full mx-auto flex items-center justify-center bg-indigo-500/20">
-            <Trophy className="w-10 h-10 text-indigo-400" />
+          <div className="w-20 h-20 rounded-full mx-auto flex items-center justify-center bg-teal-500/20">
+            <Trophy className="w-10 h-10 text-teal-400" />
           </div>
           <h2 className="text-2xl font-bold text-white">Register Transformer — Resultados</h2>
           <p className="text-gray-400">{score} / {exercises.length} transformaciones aceptadas ({pct}%)</p>
@@ -249,10 +249,10 @@ export default function RegisterTransformer({
       <div className="w-full max-w-6xl space-y-5">
         {/* Header */}
         <div className="text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/20 text-indigo-400 mb-2">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal-500/20 text-teal-400 mb-2">
             <Shuffle className="w-5 h-5" />
             <span className="text-sm font-medium">Register Transformer</span>
-            <span className="text-xs bg-indigo-500/30 px-2 py-0.5 rounded-full">{currentEx.level}</span>
+            <span className="text-xs bg-teal-500/30 px-2 py-0.5 rounded-full">{currentEx.level}</span>
           </div>
           <p className="text-gray-400 text-sm">
             Transforma el registro del texto — {currentIndex + 1} / {exercises.length}
@@ -263,7 +263,7 @@ export default function RegisterTransformer({
         <div className="h-1.5 bg-dark-700 rounded-full overflow-hidden">
           <motion.div
             animate={{ width: `${((currentIndex + (showFeedback ? 1 : 0)) / exercises.length) * 100}%` }}
-            className="h-full bg-indigo-500 rounded-full"
+            className="h-full bg-teal-500 rounded-full"
           />
         </div>
 
@@ -281,7 +281,7 @@ export default function RegisterTransformer({
                 <MessageSquare className="w-3 h-3" />
                 <span>{currentEx.contextEs}</span>
               </div>
-              <span className="bg-indigo-500/10 text-indigo-400 px-2 py-0.5 rounded-full">
+              <span className="bg-teal-500/10 text-teal-400 px-2 py-0.5 rounded-full">
                 {directionLabel[currentEx.direction]}
               </span>
             </div>
@@ -296,7 +296,7 @@ export default function RegisterTransformer({
             {/* Hint toggle */}
             <button
               onClick={() => setShowTransformations((v) => !v)}
-              className="flex items-center gap-2 text-sm text-indigo-400 hover:text-indigo-300 transition-colors"
+              className="flex items-center gap-2 text-sm text-teal-400 hover:text-teal-300 transition-colors"
             >
               <Eye className="w-4 h-4" />
               {showTransformations ? 'Ocultar transformaciones clave' : 'Ver transformaciones clave'}
@@ -312,7 +312,7 @@ export default function RegisterTransformer({
                 >
                   {currentEx.keyTransformations.map((t, i) => (
                     <div key={i} className="flex items-center gap-2 text-sm bg-dark-800/60 rounded-lg px-3 py-1.5">
-                      <GraduationCap className="w-3 h-3 text-indigo-400 flex-shrink-0" />
+                      <GraduationCap className="w-3 h-3 text-teal-400 flex-shrink-0" />
                       <span className="text-gray-300">{t}</span>
                     </div>
                   ))}
@@ -328,7 +328,7 @@ export default function RegisterTransformer({
                 onChange={(e) => setUserAnswer(e.target.value)}
                 disabled={showFeedback}
                 rows={4}
-                className="w-full bg-dark-800 border border-dark-600 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-indigo-500 focus:outline-none transition-colors resize-none"
+                className="w-full bg-dark-800 border border-dark-600 rounded-xl px-4 py-3 text-white placeholder-gray-500 focus:border-teal-500 focus:outline-none transition-colors resize-none"
                 placeholder="Rewrite in the target register..."
               />
             </div>

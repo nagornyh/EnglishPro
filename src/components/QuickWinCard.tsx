@@ -69,7 +69,7 @@ export function QuickWinCard({ win, onDismiss, autoHide = true, hideDelay = 4000
       case 'review':
         return 'from-green-500/20 to-emerald-500/20 border-green-500/40';
       case 'lesson':
-        return 'from-indigo-500/20 to-purple-500/20 border-indigo-500/40';
+        return 'from-teal-500/20 to-purple-500/20 border-teal-500/40';
       default:
         return 'from-accent-primary/20 to-accent-secondary/20 border-accent-primary/40';
     }

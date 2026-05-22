@@ -113,7 +113,7 @@ export default function IrregularVerbsPractice({
             onClick={() => setShowVerbTable(true)}
             className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl bg-dark-700 border border-dark-600 text-gray-200 hover:bg-dark-600 text-sm font-medium antialiased"
           >
-            <Table2 className="w-4 h-4 text-violet-400" />
+            <Table2 className="w-4 h-4 text-purple-400" />
             Ver verbos
           </button>
           {theoryModule && (
@@ -264,7 +264,7 @@ export default function IrregularVerbsPractice({
             {/* Header */}
             <div className="flex items-center justify-between gap-4 p-5 md:p-6 border-b border-dark-600 bg-dark-900/80">
               <div className="flex items-center gap-3">
-                <Table2 className="w-6 h-6 text-violet-400 shrink-0" />
+                <Table2 className="w-6 h-6 text-purple-400 shrink-0" />
                 <div>
                   <h2 className="text-lg font-bold text-white">Verbos de este quiz</h2>
                   <p className="text-xs text-gray-400">Consulta las 3 formas y ejemplos de cada verbo</p>
@@ -287,7 +287,7 @@ export default function IrregularVerbsPractice({
                   <tr className="border-b border-dark-600">
                     <th className="text-left py-2 px-3 text-accent-primary font-semibold text-xs uppercase tracking-wide">Infinitivo</th>
                     <th className="text-left py-2 px-3 text-amber-400 font-semibold text-xs uppercase tracking-wide">Past Simple</th>
-                    <th className="text-left py-2 px-3 text-violet-400 font-semibold text-xs uppercase tracking-wide">Past Participle</th>
+                    <th className="text-left py-2 px-3 text-purple-400 font-semibold text-xs uppercase tracking-wide">Past Participle</th>
                     <th className="text-left py-2 px-3 text-gray-400 font-semibold text-xs uppercase tracking-wide">Traducción</th>
                   </tr>
                 </thead>
@@ -318,7 +318,7 @@ export default function IrregularVerbsPractice({
                         )}
                       </td>
                       <td className="py-3 px-3 align-top">
-                        <span className="font-semibold text-violet-300">{verb.pastParticiple}</span>
+                        <span className="font-semibold text-purple-300">{verb.pastParticiple}</span>
                         <div className="text-emerald-300/80 text-xs mt-0.5">
                           <PronunciationHint word={verb.pastParticiple.split('/')[0]} forceShow className="text-xs" />
                         </div>

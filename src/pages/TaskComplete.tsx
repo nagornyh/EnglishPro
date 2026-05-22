@@ -259,7 +259,7 @@ export default function TaskComplete() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.45 }}
-          className="card bg-gradient-to-r from-blue-900/20 to-indigo-900/20 border-blue-500/20"
+          className="card bg-gradient-to-r from-blue-900/20 to-teal-900/20 border-blue-500/20"
         >
           <h3 className="text-blue-400 font-semibold mb-3 flex items-center gap-2">
             <Brain className="w-5 h-5" />

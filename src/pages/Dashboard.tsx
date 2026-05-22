@@ -119,17 +119,17 @@ export default function Dashboard() {
           <button
             type="button"
             onClick={() => setShowMiniExam(true)}
-            className="w-full card bg-gradient-to-r from-indigo-900/30 to-purple-900/30 border-indigo-500/30 hover:border-indigo-500/50 transition-all text-left"
+            className="w-full card bg-gradient-to-r from-teal-900/30 to-purple-900/30 border-teal-500/30 hover:border-teal-500/50 transition-all text-left"
           >
             <div className="flex items-center gap-4">
-              <div className="w-12 h-12 rounded-xl bg-indigo-500/20 flex items-center justify-center shrink-0">
-                <Brain className="w-6 h-6 text-indigo-400" />
+              <div className="w-12 h-12 rounded-xl bg-teal-500/20 flex items-center justify-center shrink-0">
+                <Brain className="w-6 h-6 text-teal-400" />
               </div>
               <div className="flex-1">
                 <p className="font-semibold text-white">Mini-Examen Disponible</p>
                 <p className="text-sm text-gray-400">Evalúa tu progreso con un examen rápido de 10 preguntas</p>
               </div>
-              <ArrowRight className="w-5 h-5 text-indigo-400" />
+              <ArrowRight className="w-5 h-5 text-teal-400" />
             </div>
           </button>
         </motion.div>
@@ -418,7 +418,7 @@ interface StatsCardProps {
 function StatsCard({ icon, label, value, color, animate }: StatsCardProps) {
   const colors = {
     amber: { bg: 'bg-amber-500/20', text: 'text-amber-400' },
-    indigo: { bg: 'bg-indigo-500/20', text: 'text-indigo-400' },
+    indigo: { bg: 'bg-teal-500/20', text: 'text-teal-400' },
     emerald: { bg: 'bg-emerald-500/20', text: 'text-emerald-400' },
     cyan: { bg: 'bg-cyan-500/20', text: 'text-cyan-400' },
   };

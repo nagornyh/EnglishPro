@@ -68,7 +68,6 @@ export default function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [sidebarHovered, setSidebarHovered] = useState(false);
   const location = useLocation();
-  const { user } = useUser();
   const isLessonFlow = location.pathname.startsWith('/lesson/');
 
   // Close mobile sidebar on route change
@@ -107,16 +106,7 @@ export default function Layout() {
             <span className="font-display font-bold text-xl gradient-text">EnglishPro</span>
           </Link>
 
-          <div className="flex items-center gap-2 text-amber-400">
-            {user && (
-              <>
-                <Flame className="w-5 h-5 streak-fire" aria-hidden="true" />
-                <span className="font-bold" aria-label={`Racha actual: ${user.streakData.currentStreak} días`}>
-                  {user.streakData.currentStreak}
-                </span>
-              </>
-            )}
-          </div>
+          <div className="w-6" aria-hidden="true" />
         </div>
       </header>
 

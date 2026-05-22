@@ -304,7 +304,7 @@ export default function GuidedWriting({
                 <motion.div
                   initial={{ opacity: 0, height: 0 }}
                   animate={{ opacity: 1, height: 'auto' }}
-                  className="card bg-gradient-to-br from-blue-500/10 to-indigo-500/10 border-blue-500/20"
+                  className="card bg-gradient-to-br from-blue-500/10 to-teal-500/10 border-blue-500/20"
                 >
                   <h4 className="flex items-center gap-2 text-blue-400 font-medium mb-3">
                     <FileText className="w-5 h-5" />

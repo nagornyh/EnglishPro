@@ -365,7 +365,7 @@ interface StatsCardProps {
 
 function StatsCard({ icon, label, value, color }: StatsCardProps) {
   const colors: Record<string, { bg: string; text: string }> = {
-    indigo: { bg: 'bg-indigo-500/20', text: 'text-indigo-400' },
+    indigo: { bg: 'bg-teal-500/20', text: 'text-teal-400' },
     emerald: { bg: 'bg-emerald-500/20', text: 'text-emerald-400' },
     cyan: { bg: 'bg-cyan-500/20', text: 'text-cyan-400' },
     amber: { bg: 'bg-amber-500/20', text: 'text-amber-400' },

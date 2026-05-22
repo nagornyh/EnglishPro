@@ -46,11 +46,11 @@ export default function CulturalNote({
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="card bg-gradient-to-r from-indigo-500/10 to-purple-500/10 border-indigo-500/20"
+        className="card bg-gradient-to-r from-teal-500/10 to-purple-500/10 border-teal-500/20"
       >
         <div className="flex items-start gap-3">
-          <div className="w-10 h-10 rounded-xl bg-indigo-500/20 flex items-center justify-center flex-shrink-0">
-            <Globe className="w-5 h-5 text-indigo-400" />
+          <div className="w-10 h-10 rounded-xl bg-teal-500/20 flex items-center justify-center flex-shrink-0">
+            <Globe className="w-5 h-5 text-teal-400" />
           </div>
           <div className="flex-1">
             <h4 className="font-semibold text-white mb-1">
@@ -82,11 +82,11 @@ export default function CulturalNote({
         className="bg-dark-800 rounded-2xl border border-dark-600 p-6 max-w-6xl mx-auto"
       >
         <div className="flex items-center gap-3 mb-4">
-          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-indigo-500/20 to-purple-500/20 flex items-center justify-center">
-            <Globe className="w-6 h-6 text-indigo-400" />
+          <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-teal-500/20 to-purple-500/20 flex items-center justify-center">
+            <Globe className="w-6 h-6 text-teal-400" />
           </div>
           <div>
-            <p className="text-xs text-indigo-400 uppercase tracking-wide">Nota Cultural</p>
+            <p className="text-xs text-teal-400 uppercase tracking-wide">Nota Cultural</p>
             <h3 className="text-xl font-bold text-white">{note.titleEs || note.title}</h3>
           </div>
         </div>
@@ -141,7 +141,7 @@ export default function CulturalNote({
           animate={{ opacity: 1, y: 0 }}
           className="text-center"
         >
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-indigo-500/20 text-indigo-400 mb-4">
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-teal-500/20 text-teal-400 mb-4">
             <Globe className="w-5 h-5" />
             <span className="text-sm font-medium">Nota Cultural</span>
           </div>
@@ -158,11 +158,11 @@ export default function CulturalNote({
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.1 }}
-          className="card bg-gradient-to-br from-indigo-500/10 via-purple-500/10 to-pink-500/10 border-indigo-500/20"
+          className="card bg-gradient-to-br from-teal-500/10 via-purple-500/10 to-pink-500/10 border-teal-500/20"
         >
           <div className="flex items-start gap-4">
-            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-indigo-500/30 to-purple-500/30 flex items-center justify-center flex-shrink-0">
-              <Sparkles className="w-7 h-7 text-indigo-300" />
+            <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-teal-500/30 to-purple-500/30 flex items-center justify-center flex-shrink-0">
+              <Sparkles className="w-7 h-7 text-teal-300" />
             </div>
             <div className="flex-1">
               <p className="text-lg text-gray-200 leading-relaxed">

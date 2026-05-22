@@ -491,7 +491,7 @@ export default function Practice() {
                     activity.category === 'vocabulary' ? 'bg-blue-500/20 text-blue-400' :
                     activity.category === 'grammar' ? 'bg-purple-500/20 text-purple-400' :
                     activity.category === 'listening' ? 'bg-teal-500/20 text-teal-400' :
-                    activity.category === 'speaking' ? 'bg-violet-500/20 text-violet-400' :
+                    activity.category === 'speaking' ? 'bg-purple-500/20 text-purple-400' :
                     activity.category === 'writing' ? 'bg-green-500/20 text-green-400' :
                     'bg-gray-500/20 text-gray-400'
                   }`}>

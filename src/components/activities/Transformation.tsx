@@ -252,7 +252,7 @@ export default function Transformation({
           className="flex-1 space-y-6"
         >
           {/* Original Sentence */}
-          <div className="card bg-gradient-to-br from-blue-500/10 to-indigo-500/10 border-blue-500/20">
+          <div className="card bg-gradient-to-br from-blue-500/10 to-teal-500/10 border-blue-500/20">
             <div className="flex items-start gap-3">
               <div className="w-10 h-10 rounded-xl bg-blue-500/20 flex items-center justify-center flex-shrink-0">
                 <span className="text-blue-400 font-bold">1</span>

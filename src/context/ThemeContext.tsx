@@ -19,12 +19,12 @@ const ThemeContext = createContext<ThemeContextType | null>(null);
 // Theme configurations
 const themes: Record<Theme, Record<string, string>> = {
   dark: {
-    '--bg-primary': '#0a0a0f',
-    '--bg-secondary': '#12121a',
-    '--bg-tertiary': '#1a1a2e',
-    '--bg-card': '#16162a',
-    '--accent-primary': '#6366f1',
-    '--accent-secondary': '#8b5cf6',
+    '--bg-primary': '#060912',
+    '--bg-secondary': '#0a0f1f',
+    '--bg-tertiary': '#131c35',
+    '--bg-card': '#0f1729',
+    '--accent-primary': '#2dd4bf',
+    '--accent-secondary': '#22d3ee',
   },
   darker: {
     '--bg-primary': '#000000',
